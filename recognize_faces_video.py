@@ -14,7 +14,7 @@ ap.add_argument("-e", "--encodings", required=True,
 ap.add_argument("-o", "--output", type=str, help="path to output video")
 ap.add_argument("-y", "--display", type=int, default=1,
                 help="whether or not display output frame to screen")
-ap.add_argument("-d", "--detection-method", type=str, default='cnn',
+ap.add_argument("-d", "--detection-method", type=str, default='hog',
                 help="face detection model to use: either 'hog' or 'cnn' ")
 
 args = vars(ap.parse_args())
@@ -123,3 +123,4 @@ vs.stop()
 # check to see if the video writer point needse to be released
 if writer is not None:
     writer.release()
+

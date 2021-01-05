@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ProjectPlainTextFileTypeManager">
     <file url="file://$PROJECT_DIR$/encodings.pickle" />
+    <file url="file://$PROJECT_DIR$/encodings_2.pickle" />
+    <file url="file://$PROJECT_DIR$/encodings_3.pickle" />
   </component>
-  <component name="ProjectRootManager" version="2" project-jdk-name="Python 3.8 (face_recognition_deep_learning)" project-jdk-type="Python SDK" />
+  <component name="ProjectRootManager" version="2" project-jdk-name="Python 3.8 (face_recognition_deep_learning_v1)" project-jdk-type="Python SDK" />
 </project>
